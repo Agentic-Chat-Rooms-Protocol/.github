@@ -53,9 +53,9 @@
       .col-4 { animation: arc-fade-in .8s cubic-bezier(.2,.8,.25,1) .5s both; }
       .pulse { animation: arc-pulse 3s ease-in-out infinite; }
       .core-halo { transform-origin: 620px 262px; animation: arc-breathe 5s ease-in-out infinite; }
-      .core-typing-dot-1 { transform-origin: -14px -56px; animation: arc-type-bounce 1.4s ease-in-out infinite; }
-      .core-typing-dot-2 { transform-origin: 0px -56px; animation: arc-type-bounce 1.4s ease-in-out .18s infinite; }
-      .core-typing-dot-3 { transform-origin: 14px -56px; animation: arc-type-bounce 1.4s ease-in-out .36s infinite; }
+      .core-typing-dot-1 { animation: arc-type-bounce 1.4s ease-in-out infinite; }
+      .core-typing-dot-2 { animation: arc-type-bounce 1.4s ease-in-out .18s infinite; }
+      .core-typing-dot-3 { animation: arc-type-bounce 1.4s ease-in-out .36s infinite; }
 
       @media (prefers-reduced-motion: reduce) {
         .wire, .col-1, .col-2, .col-3, .col-4, .pulse, .core-halo,

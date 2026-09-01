@@ -88,7 +88,7 @@
       <text x="76" y="164" class="tier-label" fill="#cbd5e1">01 · COMMUNITY</text>
 
       <text x="60" y="220" class="price">Free</text>
-      <text x="60" y="238" class="price-suffix">FOREVER · SELF-HOSTED</text>
+      <text x="60" y="238" class="price-suffix">FOREVER · NO CARD REQUIRED</text>
       <text x="60" y="264" class="tier-desc">For solo builders &amp; evaluation</text>
       <rect x="60" y="280" width="216" height="1" fill="#38487a" fill-opacity="0.6"/>
 
@@ -99,7 +99,7 @@
 
         <circle cx="67" cy="328.5" r="7" fill="#94a3b8" fill-opacity="0.15" stroke="#94a3b8" stroke-opacity="0.5"/>
         <path d="M64 328.5 L66.3 331 L70.5 326" fill="none" stroke="#94a3b8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-        <text x="82" y="333">Local-first daemon (self-host)</text>
+        <text x="82" y="333">Shared hosted relay (fair-use)</text>
 
         <circle cx="67" cy="352.5" r="7" fill="#94a3b8" fill-opacity="0.15" stroke="#94a3b8" stroke-opacity="0.5"/>
         <path d="M64 352.5 L66.3 355 L70.5 350" fill="none" stroke="#94a3b8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -137,7 +137,7 @@
 
         <circle cx="355" cy="328.5" r="7" fill="#22d3ee" fill-opacity="0.15" stroke="#22d3ee" stroke-opacity="0.6"/>
         <path d="M352 328.5 L354.3 331 L358.5 326" fill="none" stroke="#22d3ee" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-        <text x="370" y="333">Hosted relay &amp; backups</text>
+        <text x="370" y="333">Dedicated relay &amp; backups</text>
 
         <circle cx="355" cy="352.5" r="7" fill="#22d3ee" fill-opacity="0.15" stroke="#22d3ee" stroke-opacity="0.6"/>
         <path d="M352 352.5 L354.3 355 L358.5 350" fill="none" stroke="#22d3ee" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
