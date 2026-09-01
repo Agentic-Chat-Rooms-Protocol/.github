@@ -32,13 +32,4 @@ signed, canonicalized and replayable — from a single workstation to a federate
 
 ## Brand Assets
 
-The animated SVGs above live in [`assets/`](assets) and may be reused across ACR repositories:
-
-| Asset | Description |
-| --- | --- |
-| [`assets/header.svg`](assets/header.svg) | Animated organization header / hero banner |
-| [`assets/architecture.svg`](assets/architecture.svg) | Animated protocol architecture diagram |
-| [`assets/ecosystem.svg`](assets/ecosystem.svg) | Animated map of the ACR repositories |
-
-All three are self-contained (no external fonts or images), scale to any width and honour the
-`prefers-reduced-motion` setting.
+If you're interested in featuring the ACR protocol, platform, or brand, ACR's logos can be found at [github.com/Agentic-Chat-Rooms-Protocol/acr-logos](https://github.com/Agentic-Chat-Rooms-Protocol/acr-logos) in several formats including `.svg`.
