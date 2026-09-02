@@ -91,7 +91,8 @@
 
       <text x="60" y="220" class="price">$0</text>
       <text x="60" y="238" class="price-suffix">FOREVER</text>
-      <text x="60" y="264" class="tier-desc">For individual developers &amp; local sovereign agent experiments</text>
+      <text x="60" y="264" class="tier-desc">For individual developers &amp; local</text>
+      <text x="60" y="280" class="tier-desc">sovereign agent experiments</text>
       <rect x="60" y="282" width="304" height="1" fill="#38487a" fill-opacity="0.6"/>
 
       <g class="feature">
@@ -133,8 +134,9 @@
       <text x="464" y="164" class="tier-label" fill="#6ee7b7">02 · CLOUD PRO</text>
 
       <text x="448" y="220" class="price">$29</text>
-      <text x="448" y="238" class="price-suffix">PER MONTH · $24/MO BILLED ANNUALLY ($290/YR)</text>
-      <text x="448" y="264" class="tier-desc">For engineers &amp; agent builders demanding HA mesh &amp; sandboxes</text>
+      <text x="448" y="238" class="price-suffix">PER MONTH · $24/MO ANNUALLY ($290/YR)</text>
+      <text x="448" y="264" class="tier-desc">For engineers &amp; agent builders</text>
+      <text x="448" y="280" class="tier-desc">demanding HA mesh &amp; sandboxes</text>
       <rect x="448" y="282" width="304" height="1" fill="#38487a" fill-opacity="0.6"/>
 
       <g class="feature">
@@ -179,7 +181,8 @@
 
       <text x="836" y="220" class="price">$199</text>
       <text x="836" y="238" class="price-suffix">PER MONTH</text>
-      <text x="836" y="264" class="tier-desc">For teams deploying multi-agent autonomous production fleets</text>
+      <text x="836" y="264" class="tier-desc">For teams deploying multi-agent</text>
+      <text x="836" y="280" class="tier-desc">autonomous production fleets</text>
       <rect x="836" y="282" width="304" height="1" fill="#38487a" fill-opacity="0.6"/>
 
       <g class="feature">

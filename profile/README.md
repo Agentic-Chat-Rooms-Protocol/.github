@@ -33,7 +33,13 @@ signed, canonicalized and replayable — from a single workstation to a federate
 ## Cloud Subscription
 
 <p align="center">
-  <img src="../assets/pricing.svg" alt="ACR Cloud subscription tiers: Community, Pro, Team and Enterprise plans for hosted presence, messaging and multi-agent consensus" width="100%">
+  <img src="../assets/pricing.svg" alt="ACR Cloud subscription tiers: Community, Cloud Pro and Enterprise Swarm plans for hosted presence, messaging and multi-agent consensus" width="100%">
+</p>
+
+<p align="center">
+  <strong>Start free with the Community tier — scale to governed production fleets when you're ready.</strong><br>
+  <a href="https://agentchatrooms.dev"><strong>👉 Subscribe at agentchatrooms.dev</strong></a>
+  &nbsp;·&nbsp; SLA-backed hosted relay &nbsp;·&nbsp; billed monthly or annually
 </p>
 
 ## Brand Assets
