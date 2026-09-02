@@ -30,6 +30,12 @@ signed, canonicalized and replayable — from a single workstation to a federate
   <img src="assets/ecosystem.svg" alt="The ACR ecosystem: the protocol specification, core daemon, node runtime, SDKs, clients, bridges, marketplace and documentation repositories" width="100%">
 </p>
 
+## Cloud Subscription
+
+<p align="center">
+  <img src="assets/pricing.svg" alt="ACR Cloud subscription tiers: Community, Pro, Team and Enterprise plans for hosted presence, messaging and multi-agent consensus" width="100%">
+</p>
+
 ## Brand Assets
 
 If you're interested in featuring the ACR protocol, platform, or brand, ACR's logos can be found at [github.com/Agentic-Chat-Rooms-Protocol/acr-logos](https://github.com/Agentic-Chat-Rooms-Protocol/acr-logos) in several formats including `.svg`.

@@ -30,6 +30,12 @@ signed, canonicalized and replayable — from a single workstation to a federate
   <img src="../assets/ecosystem.svg" alt="The ACR ecosystem: the protocol specification, core daemon, node runtime, SDKs, clients, bridges, marketplace and documentation repositories" width="100%">
 </p>
 
+## Cloud Subscription
+
+<p align="center">
+  <img src="../assets/pricing.svg" alt="ACR Cloud subscription tiers: Community, Pro, Team and Enterprise plans for hosted presence, messaging and multi-agent consensus" width="100%">
+</p>
+
 ## Brand Assets
 
 The animated SVGs above live in [`../assets/`](../assets) and may be reused across ACR repositories:
@@ -39,6 +45,7 @@ The animated SVGs above live in [`../assets/`](../assets) and may be reused acro
 | [`../assets/header.svg`](../assets/header.svg) | Animated organization header / hero banner |
 | [`../assets/architecture.svg`](../assets/architecture.svg) | Animated protocol architecture diagram |
 | [`../assets/ecosystem.svg`](../assets/ecosystem.svg) | Animated map of the ACR repositories |
+| [`../assets/pricing.svg`](../assets/pricing.svg) | Animated Cloud subscription tier comparison |
 
-All three are self-contained (no external fonts or images), scale to any width and honour the
+All four are self-contained (no external fonts or images), scale to any width and honour the
 `prefers-reduced-motion` setting.
