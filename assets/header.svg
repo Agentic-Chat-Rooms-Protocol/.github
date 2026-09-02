@@ -118,38 +118,32 @@
       <ellipse class="aurora-c" cx="640" cy="40" rx="300" ry="160" fill="url(#hdr-aurora-c)"/>
     </g>
 
-    <!-- ACR logo mark, with a mobile-style "typing…" status indicator above it -->
+    <!-- ACR logo mark — actual logo from agentchatrooms.dev, 3 dots animate as typing indicator -->
     <g>
       <circle class="core-glow" cx="176" cy="170" r="96" fill="url(#hdr-core-glow)"/>
 
-      <path d="M176 118 L221 144 L221 196 L176 222 L131 196 L131 144 Z"
-            fill="#0b1226" fill-opacity="0.9" stroke="url(#hdr-mark)" stroke-width="2.25" stroke-linejoin="round"/>
-      <path d="M176 140 L202 155 L202 185 L176 200 L150 185 L150 155 Z"
-            fill="none" stroke="#22d3ee" stroke-opacity="0.55" stroke-width="1.25" stroke-linejoin="round">
-        <animate attributeName="stroke-opacity" values="0.2;0.85;0.2" dur="4s" repeatCount="indefinite"/>
-      </path>
-      <circle cx="176" cy="170" r="7" fill="#22d3ee">
-        <animate attributeName="r" values="6;8.5;6" dur="3s" repeatCount="indefinite"/>
-      </circle>
-
-      <!-- typing-status indicator: three dots bouncing like a mobile OS "is typing…" bubble -->
-      <g>
-        <circle class="typing-dot-1" cx="158" cy="97" r="5" fill="#818cf8"/>
-        <circle class="typing-dot-2" cx="176" cy="97" r="5" fill="#67e8f9"/>
-        <circle class="typing-dot-3" cx="194" cy="97" r="5" fill="#a855f7"/>
+      <!-- ACR logo body (actual logo from agentchatrooms.dev), centered at (176, 170) -->
+      <g transform="translate(122.65, 118) scale(1.637)">
+        <path d="M64.09,19.51c0,2.49-2.01,4.5-4.5,4.5s-4.5-2.01-4.5-4.5c0-1.7.95-3.15,2.33-3.92-1.17-.18-2.45-.22-3.83-.08-1.04,0-2.04.13-3.02.36-9.56-6.48-26.44-6.49-35.97,0-.97-.23-1.98-.35-3.01-.35-1.38-.14-2.66-.1-3.83.08,1.38.77,2.33,2.23,2.33,3.92,0,2.49-2.01,4.5-4.5,4.5s-4.5-2.01-4.5-4.5c-1.75,2.75-1.5,6.5,1.5,10l30,34,30-34c3-3.5,3.25-7.25,1.5-10ZM50.59,31.51l-18,22L14.59,31.51c-3-4-1-8,4-8,4.16,0,7.63,2.77,10.41,6.01l-2.41-4.01c-1.8-2.69-3.79-4.98-5.99-6.68,7.72-1.57,16.51-1.7,24.14-.11-2.26,1.72-4.31,4.04-6.14,6.8l-2.41,4.01c2.78-3.24,6.24-6.01,10.41-6.01,5,0,7,4,4,8Z"
+              fill="url(#hdr-mark)" fill-opacity="0.88"/>
       </g>
 
-      <!-- signed message packets travelling from the typing indicator into the consensus core -->
+      <!-- 3 ACR logo dots — animated as the typing indicator -->
+      <circle class="typing-dot-1" cx="152.4" cy="126.2" r="5.5" fill="#818cf8"/>
+      <circle class="typing-dot-2" cx="176" cy="126.2" r="5.5" fill="#67e8f9"/>
+      <circle class="typing-dot-3" cx="199.6" cy="126.2" r="5.5" fill="#a855f7"/>
+
+      <!-- signed message packets travelling from the logo dots into the consensus core -->
       <circle r="3.2" fill="#e0f2fe">
-        <animateMotion dur="3.2s" repeatCount="indefinite" path="M158 97 L176 152"/>
+        <animateMotion dur="3.2s" repeatCount="indefinite" path="M152.4 126.2 L176 163"/>
         <animate attributeName="opacity" values="0;1;1;0" dur="3.2s" repeatCount="indefinite"/>
       </circle>
       <circle r="3.2" fill="#c7d2fe">
-        <animateMotion dur="3.2s" begin="1.05s" repeatCount="indefinite" path="M176 97 L176 149"/>
+        <animateMotion dur="3.2s" begin="1.05s" repeatCount="indefinite" path="M176 126.2 L176 160"/>
         <animate attributeName="opacity" values="0;1;1;0" dur="3.2s" begin="1.05s" repeatCount="indefinite"/>
       </circle>
       <circle r="3.2" fill="#f5d0fe">
-        <animateMotion dur="3.2s" begin="2.1s" repeatCount="indefinite" path="M194 97 L176 152"/>
+        <animateMotion dur="3.2s" begin="2.1s" repeatCount="indefinite" path="M199.6 126.2 L176 163"/>
         <animate attributeName="opacity" values="0;1;1;0" dur="3.2s" begin="2.1s" repeatCount="indefinite"/>
       </circle>
     </g>

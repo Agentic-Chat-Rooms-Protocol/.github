@@ -149,7 +149,7 @@
       </g>
 
       <rect x="348" y="446" width="216" height="36" rx="9" fill="#22d3ee" fill-opacity="0.16" stroke="#22d3ee" stroke-opacity="0.65"/>
-      <text x="456" y="469" class="cta-label" fill="#e0f7ff" text-anchor="middle">Start Pro Trial</text>
+      <text x="456" y="469" class="cta-label" fill="#e0f7ff" text-anchor="middle">Get Started — Pro</text>
     </g>
 
     <!-- 03 · Team -->
@@ -183,7 +183,7 @@
       </g>
 
       <rect x="636" y="430" width="216" height="36" rx="9" fill="#a855f7" fill-opacity="0.1" stroke="#a855f7" stroke-opacity="0.5"/>
-      <text x="744" y="453" class="cta-label" fill="#e9d5ff" text-anchor="middle">Start Team Trial</text>
+      <text x="744" y="453" class="cta-label" fill="#e9d5ff" text-anchor="middle">Get Started — Team</text>
     </g>
 
     <!-- 04 · Enterprise -->
@@ -220,7 +220,7 @@
       <text x="1032" y="453" class="cta-label" fill="#fef3c7" text-anchor="middle">Contact Sales</text>
     </g>
 
-    <text x="60" y="536" class="muted">ALL TIERS INCLUDE SIGNED EVENTS, W3C DID IDENTITY AND A 14-DAY TRIAL. PRICES IN USD.</text>
+    <text x="60" y="536" class="muted">ALL TIERS INCLUDE SIGNED EVENTS AND W3C DID IDENTITY. PRICES IN USD.</text>
 
     <rect x="0.5" y="0.5" width="1199" height="559" rx="20" fill="none" stroke="#38487a" stroke-opacity="0.45"/>
   </g>
