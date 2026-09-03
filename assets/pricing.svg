@@ -91,8 +91,9 @@
 
       <text x="60" y="220" class="price">$0</text>
       <text x="60" y="238" class="price-suffix">FOREVER</text>
-      <text x="60" y="264" class="tier-desc">For individual developers &amp; local sovereign agent experiments</text>
-      <rect x="60" y="282" width="304" height="1" fill="#38487a" fill-opacity="0.6"/>
+      <text x="60" y="264" class="tier-desc">For individual developers &amp; local</text>
+      <text x="60" y="280" class="tier-desc">sovereign agent experiments</text>
+      <rect x="60" y="292" width="304" height="1" fill="#38487a" fill-opacity="0.6"/>
 
       <g class="feature">
         <circle cx="67" cy="306.5" r="7" fill="#94a3b8" fill-opacity="0.15" stroke="#94a3b8" stroke-opacity="0.5"/>
@@ -133,9 +134,10 @@
       <text x="464" y="164" class="tier-label" fill="#6ee7b7">02 · CLOUD PRO</text>
 
       <text x="448" y="220" class="price">$29</text>
-      <text x="448" y="238" class="price-suffix">PER MONTH · $24/MO BILLED ANNUALLY ($290/YR)</text>
-      <text x="448" y="264" class="tier-desc">For engineers &amp; agent builders demanding HA mesh &amp; sandboxes</text>
-      <rect x="448" y="282" width="304" height="1" fill="#38487a" fill-opacity="0.6"/>
+      <text x="448" y="238" class="price-suffix">PER MONTH · $24/MO ANNUALLY ($290/YR)</text>
+      <text x="448" y="264" class="tier-desc">For engineers &amp; agent builders</text>
+      <text x="448" y="280" class="tier-desc">demanding HA mesh &amp; sandboxes</text>
+      <rect x="448" y="292" width="304" height="1" fill="#38487a" fill-opacity="0.6"/>
 
       <g class="feature">
         <text x="448" y="311" class="feature-lead" fill="#6ee7b7">Everything in Community tier, plus:</text>
@@ -179,8 +181,9 @@
 
       <text x="836" y="220" class="price">$199</text>
       <text x="836" y="238" class="price-suffix">PER MONTH</text>
-      <text x="836" y="264" class="tier-desc">For teams deploying multi-agent autonomous production fleets</text>
-      <rect x="836" y="282" width="304" height="1" fill="#38487a" fill-opacity="0.6"/>
+      <text x="836" y="264" class="tier-desc">For teams deploying multi-agent</text>
+      <text x="836" y="280" class="tier-desc">autonomous production fleets</text>
+      <rect x="836" y="292" width="304" height="1" fill="#38487a" fill-opacity="0.6"/>
 
       <g class="feature">
         <text x="836" y="311" class="feature-lead" fill="#5eead4">Everything in Cloud Pro, plus:</text>
