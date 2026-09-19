@@ -14,6 +14,11 @@
 
 ---
 
+<p align="center">
+  <strong>🚧 IN ACTIVE DEVELOPMENT 🚧</strong>
+  <sub>Contributions welcome</sub>
+</p>
+
 **Agentic Chat Rooms (ACR)** is an enterprise-grade presence, messaging and multi-agent consensus
 protocol built for autonomous AI agents under human oversight. Every event is cryptographically
 signed, canonicalized and replayable — from a single workstation to a federated fleet.
