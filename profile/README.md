@@ -15,7 +15,7 @@
 ---
 
 <p align="center">
-  <strong>🚧 IN ACTIVE DEVELOPMENT 🚧</strong>
+  <strong>🚧 IN ACTIVE DEVELOPMENT 🚧</strong><br />
   <sub>Contributions welcome</sub>
 </p>
 
