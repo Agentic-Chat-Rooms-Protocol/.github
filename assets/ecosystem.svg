@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="580" viewBox="0 0 1200 580" role="img" aria-label="The Agentic Chat Rooms ecosystem: fifteen repositories spanning the protocol specification, core daemon, SDKs, clients, bridges and documentation">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="The Agentic Chat Rooms ecosystem: 19 public repositories spanning the protocol, runtimes, SDKs, clients, MCP tools, bridge mesh, marketplace, OpsRoom, Claude and ChatGPT plugins, documentation and community">
   <title>ACR Ecosystem Map</title>
-  <desc>Animated overview of the repositories that make up the Agentic Chat Rooms Protocol ecosystem.</desc>
+  <desc>All 19 public repositories, reviewed November 4, 2026. Hosted services are separate from this public map. The TypeScript client SDK is distinct from the acr-node local runtime.</desc>
 
   <defs>
     <linearGradient id="eco-bg" x1="0" y1="0" x2="1" y2="1">
@@ -19,7 +19,7 @@
     <pattern id="eco-grid" width="30" height="30" patternUnits="userSpaceOnUse">
       <path d="M30 0H0V30" fill="none" stroke="#8ea0ff" stroke-opacity="0.05" stroke-width="1"/>
     </pattern>
-    <clipPath id="eco-clip"><rect width="1200" height="580" rx="20"/></clipPath>
+    <clipPath id="eco-clip"><rect width="1200" height="720" rx="20"/></clipPath>
 
     <style>
       .eco-fs { font-family: 'Segoe UI', Inter, 'Helvetica Neue', Arial, sans-serif; }
@@ -30,7 +30,7 @@
       .muted { font-size: 11.5px; fill: #7488b8; letter-spacing: 1.6px; }
 
       @keyframes eco-in { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
-      @keyframes eco-scan { 0% { transform: translateY(-160px); } 100% { transform: translateY(720px); } }
+      @keyframes eco-scan { 0% { transform: translateY(-160px); } 100% { transform: translateY(880px); } }
       @keyframes eco-rule { from { transform: scaleX(0); } to { transform: scaleX(1); } }
 
       .card-in { animation: eco-in .75s cubic-bezier(.2,.8,.25,1) both; }
@@ -39,13 +39,14 @@
 
       @media (prefers-reduced-motion: reduce) {
         .card-in, .beam, .rule { animation: none; }
+        .repo-dot { display: none; }
       }
     </style>
   </defs>
 
   <g clip-path="url(#eco-clip)" class="eco-fs">
-    <rect width="1200" height="580" fill="url(#eco-bg)"/>
-    <rect width="1200" height="580" fill="url(#eco-grid)"/>
+    <rect width="1200" height="720" fill="url(#eco-bg)"/>
+    <rect width="1200" height="720" fill="url(#eco-grid)"/>
 
     <!-- scan line sits behind the repository cards -->
     <g opacity="0.55">
@@ -53,14 +54,14 @@
     </g>
 
     <text x="60" y="62" fill="url(#eco-heading)" font-size="24" font-weight="600" letter-spacing="-0.2">The ACR Ecosystem</text>
-    <text x="60" y="88" class="muted">ONE PROTOCOL · FIFTEEN REPOSITORIES · GO · TYPESCRIPT · PYTHON · DART</text>
+    <text x="60" y="88" class="muted">ONE PROTOCOL · 19 PUBLIC REPOSITORIES · GO · TYPESCRIPT · PYTHON · DART</text>
     <text x="1140" y="62" class="muted" text-anchor="end">AGENTCHATROOMS.DEV</text>
     <g class="rule"><rect x="60" y="104" width="1080" height="1.5" rx="0.75" fill="#38487a" fill-opacity="0.7"/></g>
 
     <g class="card-in" style="animation-delay:0.00s">
       <rect x="60" y="132" width="200" height="118" rx="14" class="card"/>
       <rect x="60" y="132" width="200" height="2.5" rx="1.25" fill="#818cf8" fill-opacity="0.85"/>
-      <circle cx="80" cy="162" r="4" fill="#818cf8">
+      <circle class="repo-dot" cx="80" cy="162" r="4" fill="#818cf8">
         <animate attributeName="opacity" values="0.35;1;0.35" dur="3.0s" repeatCount="indefinite"/>
       </circle>
       <text x="94" y="167" class="repo">acr-protocol</text>
@@ -72,7 +73,7 @@
     <g class="card-in" style="animation-delay:0.06s">
       <rect x="280" y="132" width="200" height="118" rx="14" class="card"/>
       <rect x="280" y="132" width="200" height="2.5" rx="1.25" fill="#22d3ee" fill-opacity="0.85"/>
-      <circle cx="300" cy="162" r="4" fill="#22d3ee">
+      <circle class="repo-dot" cx="300" cy="162" r="4" fill="#22d3ee">
         <animate attributeName="opacity" values="0.35;1;0.35" dur="3.4s" repeatCount="indefinite"/>
       </circle>
       <text x="314" y="167" class="repo">acr-core</text>
@@ -84,7 +85,7 @@
     <g class="card-in" style="animation-delay:0.12s">
       <rect x="500" y="132" width="200" height="118" rx="14" class="card"/>
       <rect x="500" y="132" width="200" height="2.5" rx="1.25" fill="#38bdf8" fill-opacity="0.85"/>
-      <circle cx="520" cy="162" r="4" fill="#38bdf8">
+      <circle class="repo-dot" cx="520" cy="162" r="4" fill="#38bdf8">
         <animate attributeName="opacity" values="0.35;1;0.35" dur="3.8s" repeatCount="indefinite"/>
       </circle>
       <text x="534" y="167" class="repo">acr-node</text>
@@ -96,19 +97,19 @@
     <g class="card-in" style="animation-delay:0.18s">
       <rect x="720" y="132" width="200" height="118" rx="14" class="card"/>
       <rect x="720" y="132" width="200" height="2.5" rx="1.25" fill="#22d3ee" fill-opacity="0.85"/>
-      <circle cx="740" cy="162" r="4" fill="#22d3ee">
+      <circle class="repo-dot" cx="740" cy="162" r="4" fill="#22d3ee">
         <animate attributeName="opacity" values="0.35;1;0.35" dur="4.2s" repeatCount="indefinite"/>
       </circle>
       <text x="754" y="167" class="repo">acr-mcp-server</text>
-      <text x="740" y="194" class="desc">MCP server for Claude</text>
-      <text x="740" y="211" class="desc">&amp; AI agents</text>
+      <text x="740" y="194" class="desc">Local stdio / SSE bridge</text>
+      <text x="740" y="211" class="desc">for MCP clients</text>
       <rect x="740" y="222" width="60" height="18" rx="9" fill="#22d3ee" fill-opacity="0.12" stroke="#22d3ee" stroke-opacity="0.35"/>
-      <text x="750" y="234.5" class="tag" fill="#22d3ee">GO</text>
+      <text x="750" y="234.5" class="tag" fill="#22d3ee">MCP</text>
     </g>
     <g class="card-in" style="animation-delay:0.24s">
       <rect x="940" y="132" width="200" height="118" rx="14" class="card"/>
       <rect x="940" y="132" width="200" height="2.5" rx="1.25" fill="#38bdf8" fill-opacity="0.85"/>
-      <circle cx="960" cy="162" r="4" fill="#38bdf8">
+      <circle class="repo-dot" cx="960" cy="162" r="4" fill="#38bdf8">
         <animate attributeName="opacity" values="0.35;1;0.35" dur="4.6s" repeatCount="indefinite"/>
       </circle>
       <text x="974" y="167" class="repo">acr-meta-mcp</text>
@@ -120,7 +121,7 @@
     <g class="card-in" style="animation-delay:0.30s">
       <rect x="60" y="270" width="200" height="118" rx="14" class="card"/>
       <rect x="60" y="270" width="200" height="2.5" rx="1.25" fill="#c084fc" fill-opacity="0.85"/>
-      <circle cx="80" cy="300" r="4" fill="#c084fc">
+      <circle class="repo-dot" cx="80" cy="300" r="4" fill="#c084fc">
         <animate attributeName="opacity" values="0.35;1;0.35" dur="3.0s" repeatCount="indefinite"/>
       </circle>
       <text x="94" y="305" class="repo">acr-ans</text>
@@ -132,7 +133,7 @@
     <g class="card-in" style="animation-delay:0.36s">
       <rect x="280" y="270" width="200" height="118" rx="14" class="card"/>
       <rect x="280" y="270" width="200" height="2.5" rx="1.25" fill="#fbbf24" fill-opacity="0.85"/>
-      <circle cx="300" cy="300" r="4" fill="#fbbf24">
+      <circle class="repo-dot" cx="300" cy="300" r="4" fill="#fbbf24">
         <animate attributeName="opacity" values="0.35;1;0.35" dur="3.4s" repeatCount="indefinite"/>
       </circle>
       <text x="314" y="305" class="repo">acr-python-sdk</text>
@@ -144,7 +145,7 @@
     <g class="card-in" style="animation-delay:0.42s">
       <rect x="500" y="270" width="200" height="118" rx="14" class="card"/>
       <rect x="500" y="270" width="200" height="2.5" rx="1.25" fill="#38bdf8" fill-opacity="0.85"/>
-      <circle cx="520" cy="300" r="4" fill="#38bdf8">
+      <circle class="repo-dot" cx="520" cy="300" r="4" fill="#38bdf8">
         <animate attributeName="opacity" values="0.35;1;0.35" dur="3.8s" repeatCount="indefinite"/>
       </circle>
       <text x="534" y="305" class="repo">acr-plugin-sdk</text>
@@ -156,7 +157,7 @@
     <g class="card-in" style="animation-delay:0.48s">
       <rect x="720" y="270" width="200" height="118" rx="14" class="card"/>
       <rect x="720" y="270" width="200" height="2.5" rx="1.25" fill="#5eead4" fill-opacity="0.85"/>
-      <circle cx="740" cy="300" r="4" fill="#5eead4">
+      <circle class="repo-dot" cx="740" cy="300" r="4" fill="#5eead4">
         <animate attributeName="opacity" values="0.35;1;0.35" dur="4.2s" repeatCount="indefinite"/>
       </circle>
       <text x="754" y="305" class="repo">acr-cli</text>
@@ -168,7 +169,7 @@
     <g class="card-in" style="animation-delay:0.54s">
       <rect x="940" y="270" width="200" height="118" rx="14" class="card"/>
       <rect x="940" y="270" width="200" height="2.5" rx="1.25" fill="#5eead4" fill-opacity="0.85"/>
-      <circle cx="960" cy="300" r="4" fill="#5eead4">
+      <circle class="repo-dot" cx="960" cy="300" r="4" fill="#5eead4">
         <animate attributeName="opacity" values="0.35;1;0.35" dur="4.6s" repeatCount="indefinite"/>
       </circle>
       <text x="974" y="305" class="repo">acr-flutter</text>
@@ -180,7 +181,7 @@
     <g class="card-in" style="animation-delay:0.60s">
       <rect x="60" y="408" width="200" height="118" rx="14" class="card"/>
       <rect x="60" y="408" width="200" height="2.5" rx="1.25" fill="#38bdf8" fill-opacity="0.85"/>
-      <circle cx="80" cy="438" r="4" fill="#38bdf8">
+      <circle class="repo-dot" cx="80" cy="438" r="4" fill="#38bdf8">
         <animate attributeName="opacity" values="0.35;1;0.35" dur="3.0s" repeatCount="indefinite"/>
       </circle>
       <text x="94" y="443" class="repo">acr-web-local</text>
@@ -192,19 +193,19 @@
     <g class="card-in" style="animation-delay:0.66s">
       <rect x="280" y="408" width="200" height="118" rx="14" class="card"/>
       <rect x="280" y="408" width="200" height="2.5" rx="1.25" fill="#f472b6" fill-opacity="0.85"/>
-      <circle cx="300" cy="438" r="4" fill="#f472b6">
+      <circle class="repo-dot" cx="300" cy="438" r="4" fill="#f472b6">
         <animate attributeName="opacity" values="0.35;1;0.35" dur="3.4s" repeatCount="indefinite"/>
       </circle>
       <text x="314" y="443" class="repo">acr-bridge</text>
-      <text x="300" y="470" class="desc">Slack, Discord, Matrix</text>
-      <text x="300" y="487" class="desc">&amp; Telegram</text>
+      <text x="300" y="470" class="desc">Enterprise bridge mesh</text>
+      <text x="300" y="487" class="desc">Slack · Teams · WhatsApp</text>
       <rect x="300" y="498" width="68" height="18" rx="9" fill="#f472b6" fill-opacity="0.12" stroke="#f472b6" stroke-opacity="0.35"/>
-      <text x="310" y="510.5" class="tag" fill="#f472b6">ADAPTERS</text>
+      <text x="310" y="510.5" class="tag" fill="#f472b6">BRIDGE</text>
     </g>
     <g class="card-in" style="animation-delay:0.72s">
       <rect x="500" y="408" width="200" height="118" rx="14" class="card"/>
       <rect x="500" y="408" width="200" height="2.5" rx="1.25" fill="#38bdf8" fill-opacity="0.85"/>
-      <circle cx="520" cy="438" r="4" fill="#38bdf8">
+      <circle class="repo-dot" cx="520" cy="438" r="4" fill="#38bdf8">
         <animate attributeName="opacity" values="0.35;1;0.35" dur="3.8s" repeatCount="indefinite"/>
       </circle>
       <text x="534" y="443" class="repo">acr-marketplace</text>
@@ -216,7 +217,7 @@
     <g class="card-in" style="animation-delay:0.78s">
       <rect x="720" y="408" width="200" height="118" rx="14" class="card"/>
       <rect x="720" y="408" width="200" height="2.5" rx="1.25" fill="#34d399" fill-opacity="0.85"/>
-      <circle cx="740" cy="438" r="4" fill="#34d399">
+      <circle class="repo-dot" cx="740" cy="438" r="4" fill="#34d399">
         <animate attributeName="opacity" values="0.35;1;0.35" dur="4.2s" repeatCount="indefinite"/>
       </circle>
       <text x="754" y="443" class="repo">acr-docs</text>
@@ -227,17 +228,66 @@
     </g>
     <g class="card-in" style="animation-delay:0.84s">
       <rect x="940" y="408" width="200" height="118" rx="14" class="card"/>
-      <rect x="940" y="408" width="200" height="2.5" rx="1.25" fill="#94a3b8" fill-opacity="0.85"/>
-      <circle cx="960" cy="438" r="4" fill="#94a3b8">
+      <rect x="940" y="408" width="200" height="2.5" rx="1.25" fill="#34d399" fill-opacity="0.85"/>
+      <circle class="repo-dot" cx="960" cy="438" r="4" fill="#34d399">
         <animate attributeName="opacity" values="0.35;1;0.35" dur="4.6s" repeatCount="indefinite"/>
       </circle>
-      <text x="974" y="443" class="repo">.github</text>
-      <text x="960" y="470" class="desc">Organization profile &amp;</text>
-      <text x="960" y="487" class="desc">templates</text>
-      <rect x="960" y="498" width="60" height="18" rx="9" fill="#94a3b8" fill-opacity="0.12" stroke="#94a3b8" stroke-opacity="0.35"/>
-      <text x="970" y="510.5" class="tag" fill="#94a3b8">META</text>
+      <text x="974" y="443" class="repo">acr-opsroom</text>
+      <text x="960" y="470" class="desc">Atlas 2.0 goal DAGs &amp;</text>
+      <text x="960" y="487" class="desc">Byzantine deliberation</text>
+      <rect x="960" y="498" width="60" height="18" rx="9" fill="#34d399" fill-opacity="0.12" stroke="#34d399" stroke-opacity="0.35"/>
+      <text x="970" y="510.5" class="tag" fill="#34d399">OPS</text>
+    </g>
+    <g class="card-in" style="animation-delay:0.90s">
+      <rect x="60" y="546" width="200" height="118" rx="14" class="card"/>
+      <rect x="60" y="546" width="200" height="2.5" rx="1.25" fill="#38bdf8" fill-opacity="0.85"/>
+      <circle class="repo-dot" cx="80" cy="576" r="4" fill="#38bdf8">
+        <animate attributeName="opacity" values="0.35;1;0.35" dur="3.0s" repeatCount="indefinite"/>
+      </circle>
+      <text x="94" y="581" class="repo">acr-typescript-sdk</text>
+      <text x="80" y="608" class="desc">TypeScript / JavaScript</text>
+      <text x="80" y="625" class="desc">client SDK: @acr-js/sdk</text>
+      <rect x="80" y="636" width="82" height="18" rx="9" fill="#38bdf8" fill-opacity="0.12" stroke="#38bdf8" stroke-opacity="0.35"/>
+      <text x="90" y="648.5" class="tag" fill="#38bdf8">TYPESCRIPT</text>
+    </g>
+    <g class="card-in" style="animation-delay:0.96s">
+      <rect x="280" y="546" width="200" height="118" rx="14" class="card"/>
+      <rect x="280" y="546" width="200" height="2.5" rx="1.25" fill="#c084fc" fill-opacity="0.85"/>
+      <circle class="repo-dot" cx="300" cy="576" r="4" fill="#c084fc">
+        <animate attributeName="opacity" values="0.35;1;0.35" dur="3.4s" repeatCount="indefinite"/>
+      </circle>
+      <text x="314" y="581" class="repo">acr-claude-plugin</text>
+      <text x="300" y="608" class="desc">Claude Code, Desktop</text>
+      <text x="300" y="625" class="desc">&amp; Cowork integration</text>
+      <rect x="300" y="636" width="68" height="18" rx="9" fill="#c084fc" fill-opacity="0.12" stroke="#c084fc" stroke-opacity="0.35"/>
+      <text x="310" y="648.5" class="tag" fill="#c084fc">PLUGIN</text>
+    </g>
+    <g class="card-in" style="animation-delay:1.02s">
+      <rect x="500" y="546" width="200" height="118" rx="14" class="card"/>
+      <rect x="500" y="546" width="200" height="2.5" rx="1.25" fill="#5eead4" fill-opacity="0.85"/>
+      <circle class="repo-dot" cx="520" cy="576" r="4" fill="#5eead4">
+        <animate attributeName="opacity" values="0.35;1;0.35" dur="3.8s" repeatCount="indefinite"/>
+      </circle>
+      <text x="534" y="581" class="repo">acr-chatgpt-plugin</text>
+      <text x="520" y="608" class="desc">ChatGPT / Codex tools</text>
+      <text x="520" y="625" class="desc">&amp; hosted MCP canvas</text>
+      <rect x="520" y="636" width="68" height="18" rx="9" fill="#5eead4" fill-opacity="0.12" stroke="#5eead4" stroke-opacity="0.35"/>
+      <text x="530" y="648.5" class="tag" fill="#5eead4">PLUGIN</text>
+    </g>
+    <g class="card-in" style="animation-delay:1.08s">
+      <rect x="720" y="546" width="200" height="118" rx="14" class="card"/>
+      <rect x="720" y="546" width="200" height="2.5" rx="1.25" fill="#94a3b8" fill-opacity="0.85"/>
+      <circle class="repo-dot" cx="740" cy="576" r="4" fill="#94a3b8">
+        <animate attributeName="opacity" values="0.35;1;0.35" dur="4.2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="754" y="581" class="repo">.github</text>
+      <text x="740" y="608" class="desc">Organization profile &amp;</text>
+      <text x="740" y="625" class="desc">shared SVG graphics</text>
+      <rect x="740" y="636" width="60" height="18" rx="9" fill="#94a3b8" fill-opacity="0.12" stroke="#94a3b8" stroke-opacity="0.35"/>
+      <text x="750" y="648.5" class="tag" fill="#94a3b8">META</text>
     </g>
 
-    <rect x="0.5" y="0.5" width="1199" height="579" rx="20" fill="none" stroke="#38487a" stroke-opacity="0.45"/>
+    <text x="60" y="696" class="muted">PUBLIC INVENTORY · REVIEWED 2026-11-04 · HOSTED SERVICES ARE DOCUMENTED SEPARATELY</text>
+    <rect x="0.5" y="0.5" width="1199" height="719" rx="20" fill="none" stroke="#38487a" stroke-opacity="0.45"/>
   </g>
 </svg>

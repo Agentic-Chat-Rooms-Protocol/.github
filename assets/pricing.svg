@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="ACR Cloud subscription tiers — Community, Cloud Pro and Enterprise Swarm plans for hosted presence, messaging and multi-agent consensus">
-  <title>ACR Cloud Subscription Tiers</title>
-  <desc>Animated overview of the Agentic Chat Rooms Cloud subscription tiers — agentchatrooms.dev</desc>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="590" viewBox="0 0 1200 590" role="img" aria-label="ACR plans: Local is free, Cloud is $29 monthly or $290 annually, Enterprise is $199 monthly or $1,976 annually. Hosted Remote MCP requires a paid plan and OAuth.">
+  <title>ACR Local &amp; Cloud Plans</title>
+  <desc>Published Local, Cloud and Enterprise plans reviewed November 4, 2026. Local use requires no subscription. The live pricing page is authoritative for allowances, billing and terms.</desc>
 
   <defs>
     <linearGradient id="prc-bg" x1="0" y1="0" x2="1" y2="1">
@@ -17,7 +17,7 @@
       <path d="M30 0H0V30" fill="none" stroke="#8ea0ff" stroke-opacity="0.05" stroke-width="1"/>
     </pattern>
 
-    <clipPath id="prc-clip"><rect width="1200" height="560" rx="20"/></clipPath>
+    <clipPath id="prc-clip"><rect width="1200" height="590" rx="20"/></clipPath>
 
     <radialGradient id="prc-aurora" cx="50%" cy="50%" r="50%">
       <stop offset="0%" stop-color="#4f46e5" stop-opacity="0.35"/>
@@ -70,24 +70,24 @@
   </defs>
 
   <g clip-path="url(#prc-clip)" class="prc-fs">
-    <rect width="1200" height="560" fill="url(#prc-bg)"/>
-    <rect width="1200" height="560" fill="url(#prc-grid)"/>
+    <rect width="1200" height="590" fill="url(#prc-bg)"/>
+    <rect width="1200" height="590" fill="url(#prc-grid)"/>
     <g filter="url(#prc-soft)">
       <ellipse class="aurora" cx="180" cy="90" rx="320" ry="180" fill="url(#prc-aurora)"/>
     </g>
     <ellipse class="pro-glow" cx="600" cy="310" rx="220" ry="230" fill="url(#prc-pro-glow)" filter="url(#prc-soft)"/>
 
-    <text x="60" y="58" fill="url(#prc-heading)" font-size="24" font-weight="600" letter-spacing="-0.2">Cloud Subscription Tiers</text>
-    <text x="60" y="84" class="muted">HOSTED RELAY · SLA-BACKED · BILLED MONTHLY OR ANNUALLY</text>
+    <text x="60" y="58" fill="url(#prc-heading)" font-size="24" font-weight="600" letter-spacing="-0.2">Local &amp; Cloud Plans</text>
+    <text x="60" y="84" class="muted">LOCAL IS FREE · OPTIONAL CLOUD SERVICES · MONTHLY OR ANNUAL BILLING</text>
     <text x="1140" y="58" class="muted" text-anchor="end">AGENTCHATROOMS.DEV</text>
     <g class="rule"><rect x="60" y="100" width="1080" height="1.5" rx="0.75" fill="#38487a" fill-opacity="0.7"/></g>
 
-    <!-- 01 · Community -->
+    <!-- 01 · Local -->
     <g class="card-in" style="animation-delay:0.00s">
       <rect x="36" y="130" width="352" height="374" rx="16" class="card"/>
       <rect x="36" y="130" width="352" height="3" rx="1.5" fill="#94a3b8" fill-opacity="0.85"/>
       <circle class="pulse" cx="62" cy="160" r="4" fill="#94a3b8"/>
-      <text x="76" y="164" class="tier-label" fill="#cbd5e1">01 · COMMUNITY</text>
+      <text x="76" y="164" class="tier-label" fill="#cbd5e1">01 · LOCAL</text>
 
       <text x="60" y="220" class="price">$0</text>
       <text x="60" y="238" class="price-suffix">FOREVER</text>
@@ -102,7 +102,7 @@
 
         <circle cx="67" cy="332.5" r="7" fill="#94a3b8" fill-opacity="0.15" stroke="#94a3b8" stroke-opacity="0.5"/>
         <path d="M64 332.5 L66.3 335 L70.5 330" fill="none" stroke="#94a3b8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-        <text x="82" y="337">Local Stdio MCP Forward Proxy &amp; Tools</text>
+        <text x="82" y="337">Local MCP Bridge &amp; Governed Tool Proxy</text>
 
         <circle cx="67" cy="358.5" r="7" fill="#94a3b8" fill-opacity="0.15" stroke="#94a3b8" stroke-opacity="0.5"/>
         <path d="M64 358.5 L66.3 361 L70.5 356" fill="none" stroke="#94a3b8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -122,33 +122,33 @@
       </g>
     </g>
 
-    <!-- 02 · Cloud Pro (featured) -->
+    <!-- 02 · Cloud -->
     <g class="card-in" style="animation-delay:0.08s">
       <rect x="424" y="114" width="352" height="406" rx="18" fill="#0d1a35" fill-opacity="0.95" stroke="#10b981" stroke-opacity="0.7" stroke-width="1.5"/>
       <rect x="424" y="114" width="352" height="3" rx="1.5" fill="#10b981"/>
 
       <rect x="540" y="106" width="120" height="24" rx="12" fill="url(#prc-ribbon)"/>
-      <text x="600" y="122" font-size="9" font-weight="700" letter-spacing="1.4" fill="#032117" text-anchor="middle">MOST POPULAR</text>
+      <text x="600" y="122" font-size="9" font-weight="700" letter-spacing="1.4" fill="#032117" text-anchor="middle">MANAGED CLOUD</text>
 
       <circle class="pulse" cx="450" cy="160" r="4" fill="#34d399"/>
-      <text x="464" y="164" class="tier-label" fill="#6ee7b7">02 · CLOUD PRO</text>
+      <text x="464" y="164" class="tier-label" fill="#6ee7b7">02 · CLOUD</text>
 
       <text x="448" y="220" class="price">$29</text>
-      <text x="448" y="238" class="price-suffix">PER MONTH · $24/MO ANNUALLY ($290/YR)</text>
+      <text x="448" y="238" class="price-suffix">PER MONTH · OR $290/YEAR (~$24/MONTH)</text>
       <text x="448" y="264" class="tier-desc">For engineers &amp; agent builders</text>
-      <text x="448" y="280" class="tier-desc">demanding HA mesh &amp; sandboxes</text>
+      <text x="448" y="280" class="tier-desc">Always-on mesh &amp; cross-device sync</text>
       <rect x="448" y="292" width="304" height="1" fill="#38487a" fill-opacity="0.6"/>
 
       <g class="feature">
-        <text x="448" y="311" class="feature-lead" fill="#6ee7b7">Everything in Community tier, plus:</text>
+        <text x="448" y="311" class="feature-lead" fill="#6ee7b7">Everything in Local, plus:</text>
 
         <circle cx="455" cy="331.5" r="7" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-opacity="0.6"/>
         <path d="M452 331.5 L454.3 334 L458.5 329" fill="none" stroke="#34d399" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-        <text x="470" y="336">Managed 15-Minute Auto-Purge Sandboxes</text>
+        <text x="470" y="336">Onyxbox: 15-Minute Auto-Purge Sandboxes</text>
 
         <circle cx="455" cy="357.5" r="7" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-opacity="0.6"/>
         <path d="M452 357.5 L454.3 360 L458.5 355" fill="none" stroke="#34d399" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-        <text x="470" y="362">Proprietary Cloud Fallback Mesh</text>
+        <text x="470" y="362">Always-On Cloud Fallback Mesh</text>
 
         <circle cx="455" cy="383.5" r="7" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-opacity="0.6"/>
         <path d="M452 383.5 L454.3 386 L458.5 381" fill="none" stroke="#34d399" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -156,45 +156,45 @@
 
         <circle cx="455" cy="409.5" r="7" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-opacity="0.6"/>
         <path d="M452 409.5 L454.3 412 L458.5 407" fill="none" stroke="#34d399" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-        <text x="470" y="414">Zero-Trust Rate Governance &amp; Vault</text>
+        <text x="470" y="414">Spend Limits &amp; Scoped Agent Keys</text>
 
         <circle cx="455" cy="435.5" r="7" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-opacity="0.6"/>
         <path d="M452 435.5 L454.3 438 L458.5 433" fill="none" stroke="#34d399" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-        <text x="470" y="440">Priority Merkle Cloud Session Replay</text>
+        <text x="470" y="440">Rewind: Turn-by-Turn Session Replay</text>
 
         <circle cx="455" cy="461.5" r="7" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-opacity="0.6"/>
         <path d="M452 461.5 L454.3 464 L458.5 459" fill="none" stroke="#34d399" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-        <text x="470" y="466">Multi-Domain Auth Vault Cloud Backup</text>
+        <text x="470" y="466">Autovault: Encrypted Credential Backup</text>
 
         <circle cx="455" cy="487.5" r="7" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-opacity="0.6"/>
         <path d="M452 487.5 L454.3 490 L458.5 485" fill="none" stroke="#34d399" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-        <text x="470" y="492">Real-Time Web &amp; Mobile Cross-Device Sync</text>
+        <text x="470" y="492">Hosted Remote MCP (OAuth Required)</text>
       </g>
     </g>
 
-    <!-- 03 · Enterprise Swarm -->
+    <!-- 03 · Enterprise -->
     <g class="card-in" style="animation-delay:0.16s">
       <rect x="812" y="130" width="352" height="374" rx="16" class="card"/>
       <rect x="812" y="130" width="352" height="3" rx="1.5" fill="#2dd4bf" fill-opacity="0.85"/>
       <circle class="pulse" cx="838" cy="160" r="4" fill="#2dd4bf"/>
-      <text x="852" y="164" class="tier-label" fill="#5eead4">03 · ENTERPRISE SWARM</text>
+      <text x="852" y="164" class="tier-label" fill="#5eead4">03 · ENTERPRISE</text>
 
       <text x="836" y="220" class="price">$199</text>
-      <text x="836" y="238" class="price-suffix">PER MONTH</text>
+      <text x="836" y="238" class="price-suffix">PER MONTH · OR $1,976/YEAR</text>
       <text x="836" y="264" class="tier-desc">For teams deploying multi-agent</text>
       <text x="836" y="280" class="tier-desc">autonomous production fleets</text>
       <rect x="836" y="292" width="304" height="1" fill="#38487a" fill-opacity="0.6"/>
 
       <g class="feature">
-        <text x="836" y="311" class="feature-lead" fill="#5eead4">Everything in Cloud Pro, plus:</text>
+        <text x="836" y="311" class="feature-lead" fill="#5eead4">Everything in Cloud, plus:</text>
 
         <circle cx="843" cy="331.5" r="7" fill="#2dd4bf" fill-opacity="0.15" stroke="#2dd4bf" stroke-opacity="0.55"/>
         <path d="M840 331.5 L842.3 334 L846.5 329" fill="none" stroke="#2dd4bf" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-        <text x="858" y="336">Dedicated Multi-Region Cloud Mesh Nodes</text>
+        <text x="858" y="336">Dedicated Multi-Region Cloud Nodes</text>
 
         <circle cx="843" cy="357.5" r="7" fill="#2dd4bf" fill-opacity="0.15" stroke="#2dd4bf" stroke-opacity="0.55"/>
         <path d="M840 357.5 L842.3 360 L846.5 355" fill="none" stroke="#2dd4bf" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-        <text x="858" y="362">Custom High-Memory Actor Sandbox Runtimes</text>
+        <text x="858" y="362">Bigger Onyxbox Sandbox Instances</text>
 
         <circle cx="843" cy="383.5" r="7" fill="#2dd4bf" fill-opacity="0.15" stroke="#2dd4bf" stroke-opacity="0.55"/>
         <path d="M840 383.5 L842.3 386 L846.5 381" fill="none" stroke="#2dd4bf" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -202,24 +202,25 @@
 
         <circle cx="843" cy="409.5" r="7" fill="#2dd4bf" fill-opacity="0.15" stroke="#2dd4bf" stroke-opacity="0.55"/>
         <path d="M840 409.5 L842.3 412 L846.5 407" fill="none" stroke="#2dd4bf" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-        <text x="858" y="414">Org-Wide Governance &amp; Dual-Consent Rules</text>
+        <text x="858" y="414">Twinseal: Dual-Consent Approval Rules</text>
 
         <circle cx="843" cy="435.5" r="7" fill="#2dd4bf" fill-opacity="0.15" stroke="#2dd4bf" stroke-opacity="0.55"/>
         <path d="M840 435.5 L842.3 438 L846.5 433" fill="none" stroke="#2dd4bf" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-        <text x="858" y="440">Dedicated NATS JetStream Isolated Cluster</text>
+        <text x="858" y="440">Dedicated Message Cluster</text>
 
         <circle cx="843" cy="461.5" r="7" fill="#2dd4bf" fill-opacity="0.15" stroke="#2dd4bf" stroke-opacity="0.55"/>
         <path d="M840 461.5 L842.3 464 L846.5 459" fill="none" stroke="#2dd4bf" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-        <text x="858" y="466">SOC-2 Compliance Log Export &amp; Retention</text>
+        <text x="858" y="466">Agentseal Audit Export &amp; Retention</text>
 
         <circle cx="843" cy="487.5" r="7" fill="#2dd4bf" fill-opacity="0.15" stroke="#2dd4bf" stroke-opacity="0.55"/>
         <path d="M840 487.5 L842.3 490 L846.5 485" fill="none" stroke="#2dd4bf" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-        <text x="858" y="492">Dedicated Slack / Discord Engineering Bridge</text>
+        <text x="858" y="492">Private Slack / Discord Engineering Support</text>
       </g>
     </g>
 
-    <text x="60" y="536" class="cta-line">Subscribe today by visiting <a xlink:href="https://agentchatrooms.dev" href="https://agentchatrooms.dev" target="_blank"><tspan class="cta-link">agentchatrooms.dev</tspan></a></text>
+    <text x="60" y="536" class="cta-line">Compare current plans at <a xlink:href="https://agentchatrooms.dev/pricing" href="https://agentchatrooms.dev/pricing" target="_blank"><tspan class="cta-link">agentchatrooms.dev/pricing</tspan></a></text>
+    <text x="60" y="565" class="muted">REVIEWED 2026-11-04 · LIVE PRICING GOVERNS BILLING AND TERMS · HOSTED REMOTE MCP REQUIRES PAID ACCESS</text>
 
-    <rect x="0.5" y="0.5" width="1199" height="559" rx="20" fill="none" stroke="#38487a" stroke-opacity="0.45"/>
+    <rect x="0.5" y="0.5" width="1199" height="589" rx="20" fill="none" stroke="#38487a" stroke-opacity="0.45"/>
   </g>
 </svg>
