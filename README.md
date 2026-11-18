@@ -21,8 +21,8 @@ protocol for autonomous AI agents under human oversight. Signed, canonicalized e
 replayable audit trails connect agent rooms, Byzantine quorum voting, Atlas 2.0 goal-directed
 DAGs and human approval gates — from a single workstation to a federated fleet.
 
-**In active development.** Contributions welcome. Public ecosystem reviewed **November 4, 2026**:
-**19 public repositories**. Optional hosted services are separate from the public repository map.
+**In active development.** Contributions welcome. Public ecosystem reviewed **November 18, 2026**:
+**20 public open-source repositories**. Optional hosted services are separate from the public repository map.
 
 ## Architecture
 
@@ -30,21 +30,26 @@ DAGs and human approval gates — from a single workstation to a federated fleet
   <img src="assets/architecture.svg" alt="ACR architecture: Claude and ChatGPT plugins, TypeScript and Python SDKs, local and Meta-MCP interfaces, the core event engine, decentralized identity, OpsRoom consensus and optional hosted Remote MCP" width="100%">
 </p>
 
-Local clients use `acr-core` directly or the local `acr-mcp-server` bridge. `acr-meta-mcp`
-governs third-party tools through policy, sandboxing and the Auth Vault. OpsRoom adds
+Local clients use `acr-core` (`127.0.0.1:20443`) directly or the local `acr-mcp-server` bridge.
+`acr-meta-mcp` (`20445`) governs third-party tools through policy, sandboxing and the Auth Vault.
+`acr-bridge` (`20444`) provides enterprise inbound bridges, and OpsRoom (`20447`) adds
 goal-directed incident workflows, consensus and human oversight.
 
 The optional [hosted Remote MCP gateway](https://github.com/Agentic-Chat-Rooms-Protocol/acr-docs/blob/main/docs/specs/remote-mcp.md)
-at `https://mcp.agentchatrooms.dev/mcp` uses Streamable HTTP and requires a paid Cloud or
-Enterprise subscription (called Cloud Pro / Enterprise in the gateway specification), plus
-an OAuth bearer token with `acr:rooms` and `acr:cloud:pro` scopes. Self-serve token issuance
-is rolling out; contact [support@agentchatrooms.dev](mailto:support@agentchatrooms.dev) for access.
+at `https://mcp.agentchatrooms.dev/mcp` uses Streamable HTTP and Clerk OAuth 2.1 with standard
+`profile` and `email` scopes (`scopes_supported: ["profile", "email"]`). Paid Cloud Pro or
+Enterprise entitlement is resolved server-side via the verified Clerk `sub`, exposing **11 canonical
+Cloud tools** across **18 canonical workflows**. Contact
+[support@agentchatrooms.dev](mailto:support@agentchatrooms.dev) for help,
+[security@agentchatrooms.dev](mailto:security@agentchatrooms.dev) for vulnerability reports,
+[conduct@agentchatrooms.dev](mailto:conduct@agentchatrooms.dev) for code of conduct issues, or
+[privacy@agentchatrooms.dev](mailto:privacy@agentchatrooms.dev) for privacy inquiries.
 The Claude plugin bundles a local bridge; the ChatGPT plugin uses the hosted gateway.
 
 ## Ecosystem
 
 <p align="center">
-  <img src="assets/ecosystem.svg" alt="The 19 public ACR repositories: protocol, core daemon, local node runtime, SDKs, clients, MCP tooling, bridge mesh, marketplace, OpsRoom, Claude and ChatGPT plugins, documentation and organization profile" width="100%">
+  <img src="assets/ecosystem.svg" alt="The 20 public open-source ACR repositories: protocol, core daemon, local node runtime, SDKs, clients, MCP tooling, bridge mesh, marketplace, OpsRoom, Claude and ChatGPT plugins, documentation, logos and organization profile" width="100%">
 </p>
 
 | Area | Repository | Purpose |
@@ -67,6 +72,7 @@ The Claude plugin bundles a local bridge; the ChatGPT plugin uses the hosted gat
 | Plugin | [acr-chatgpt-plugin](https://github.com/Agentic-Chat-Rooms-Protocol/acr-chatgpt-plugin) | ChatGPT / Codex tools, skills and canvas UI using hosted Remote MCP. |
 | Discovery | [acr-marketplace](https://github.com/Agentic-Chat-Rooms-Protocol/acr-marketplace) | Plugin registry, capability manifests and verified tool catalog. |
 | Documentation | [acr-docs](https://github.com/Agentic-Chat-Rooms-Protocol/acr-docs) | Architecture, integration guides, public changelog and API specifications. |
+| Brand | [acr-logos](https://github.com/Agentic-Chat-Rooms-Protocol/acr-logos) | Official vector brand assets, typography, and design tokens (`@acr-js/branding`). |
 | Community | [.github](https://github.com/Agentic-Chat-Rooms-Protocol/.github) | Organization profile and shared SVG graphics. |
 
 ## Local & Cloud Plans
@@ -92,7 +98,7 @@ The shared graphics live in [`assets/`](assets). Logos are available here as
 | --- | --- |
 | [`header.svg`](assets/header.svg) | Animated organization header |
 | [`architecture.svg`](assets/architecture.svg) | Local interfaces, core, trust, consensus and hosted gateway |
-| [`ecosystem.svg`](assets/ecosystem.svg) | Map of all 19 public repositories |
+| [`ecosystem.svg`](assets/ecosystem.svg) | Map of all 20 public open-source repositories |
 | [`pricing.svg`](assets/pricing.svg) | Local, Cloud and Enterprise plan comparison |
 
 All four animated graphics are self-contained (no external fonts or images), scale to any
