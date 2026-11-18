@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Agentic-Chat-Rooms-Protocol/.github/main/assets/header.svg" alt="Agentic Chat Rooms Protocol — local-first rooms, Byzantine consensus and human-governed agent workflows, with SDKs, OpsRoom and plugins" width="100%">
+  <img src="https://raw.githubusercontent.com/Agentic-Chat-Rooms-Protocol/.github/main/assets/header.svg" alt="Agentic Chat Rooms Protocol: local-first rooms, 67% Consensus Gate and human-governed agent workflows, with SDKs, OpsRoom and plugins" width="100%">
 </p>
 
 <p align="center">
@@ -14,15 +14,9 @@
   <a href="https://github.com/Agentic-Chat-Rooms-Protocol/acr-opsroom">OpsRoom</a>
 </p>
 
----
+Single-agent chat threads drift, overwrite shared context and act without verifiable sign-off. **Agentic Chat Rooms (ACR)** gives engineering teams a local-first presence, messaging and multi-agent deliberation protocol under human oversight. Signed, canonicalized events and replayable audit trails enforce a **67% Consensus Gate** (signed by W3C Ed25519 DIDs), **Atlas 2.0 Dynamic DAG** execution with deterministic rollbacks, **ToolHive Micro-Sandboxing** for process isolation, **$0 Runtime Protocol Tax** under Apache-2.0 and **WCAG 2.2 AAA COMPLIANT** interfaces from a single workstation to a federated fleet.
 
-**Agentic Chat Rooms (ACR)** is a local-first presence, messaging and multi-agent consensus
-protocol for autonomous AI agents under human oversight. Signed, canonicalized events and
-replayable audit trails connect agent rooms, Byzantine quorum voting, Atlas 2.0 goal-directed
-DAGs and human approval gates — from a single workstation to a federated fleet.
-
-**In active development.** Contributions welcome. Public ecosystem reviewed **November 18, 2026**:
-**20 public open-source repositories**. Optional hosted services are separate from the public repository map.
+The project is in active development and welcomes contributions. The public ecosystem was reviewed on November 18, 2026 across 20 public open-source repositories. Optional hosted services remain separate from the public repository map.
 
 ## Architecture
 
@@ -55,8 +49,8 @@ The Claude plugin bundles a local bridge; the ChatGPT plugin uses the hosted gat
 | Area | Repository | Purpose |
 | --- | --- | --- |
 | Protocol | [acr-protocol](https://github.com/Agentic-Chat-Rooms-Protocol/acr-protocol) | RFCs, schemas, state machines and formal verification. |
-| Runtime | [acr-core](https://github.com/Agentic-Chat-Rooms-Protocol/acr-core) | Go reference daemon, rooms, presence, SQLite and NATS JetStream. |
-| Runtime | [acr-node](https://github.com/Agentic-Chat-Rooms-Protocol/acr-node) | Local node substrate: actors, PartyKit rooms, CRDT presence and Iroh QUIC P2P. |
+| Runtime | [acr-core](https://github.com/Agentic-Chat-Rooms-Protocol/acr-core) | Go reference daemon, rooms, presence, SQLite and NATS event streams. |
+| Runtime | [acr-node](https://github.com/Agentic-Chat-Rooms-Protocol/acr-node) | Local node runtime: actors, PartyKit rooms, CRDT presence and Iroh QUIC P2P. |
 | Identity | [acr-ans](https://github.com/Agentic-Chat-Rooms-Protocol/acr-ans) | Agent Name Service, DID mapping and cryptographic state anchoring. |
 | SDK | [acr-typescript-sdk](https://github.com/Agentic-Chat-Rooms-Protocol/acr-typescript-sdk) | Official TypeScript / JavaScript client, `@acr-js/sdk`. |
 | SDK | [acr-python-sdk](https://github.com/Agentic-Chat-Rooms-Protocol/acr-python-sdk) | Python agent client and framework integrations. |
@@ -64,7 +58,7 @@ The Claude plugin bundles a local bridge; the ChatGPT plugin uses the hosted gat
 | Client | [acr-cli](https://github.com/Agentic-Chat-Rooms-Protocol/acr-cli) | Dart terminal tooling for rooms, votes, audit replay and Meta-MCP. |
 | Client | [acr-flutter](https://github.com/Agentic-Chat-Rooms-Protocol/acr-flutter) | Native desktop, tablet and mobile application. |
 | Client | [acr-web-local](https://github.com/Agentic-Chat-Rooms-Protocol/acr-web-local) | Browser-based workstation UI with no cloud dependency. |
-| Operations | [acr-opsroom](https://github.com/Agentic-Chat-Rooms-Protocol/acr-opsroom) | Operations war room, Atlas 2.0 DAG planning and Byzantine deliberation. |
+| Operations | [acr-opsroom](https://github.com/Agentic-Chat-Rooms-Protocol/acr-opsroom) | Operations war room, Atlas 2.0 Dynamic DAG planning and 67% Consensus Gate deliberation. |
 | MCP | [acr-mcp-server](https://github.com/Agentic-Chat-Rooms-Protocol/acr-mcp-server) | Local stdio / SSE bridge between MCP clients and `acr-core`. |
 | MCP | [acr-meta-mcp](https://github.com/Agentic-Chat-Rooms-Protocol/acr-meta-mcp) | Governed third-party tool proxy, sandbox runtime and Auth Vault. |
 | Integration | [acr-bridge](https://github.com/Agentic-Chat-Rooms-Protocol/acr-bridge) | Enterprise inbound bridge mesh, message re-signing and PII sanitization. |
